@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/muhammetipek/.nvm/versions/node/v14.20.1/bin/node /Users/muhammetipek/.nvm/versions/node/v14.20.1/bin/yarn init
+
+PATH: 
+  /opt/homebrew/opt/openjdk@11/bin:/Users/muhammetipek/.nvm/versions/node/v14.20.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/opt/openjdk@11/bin:/Users/muhammetipek/.nvm/versions/node/v14.20.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/muhammetipek/Library/Android/sdk/platform-tools/:/Users/muhammetipek/Library/Android/sdk/emulator/:/Users/muhammetipek/Library/Android/sdk/platform-tools/:/Users/muhammetipek/Library/Android/sdk/emulator/
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/muhammetipek/.nvm/versions/node/v14.20.1/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  {
+    "name": "react-native-animated-drawer",
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "license": "MIT",
+    "peerDependencies": {
+      "@react-navigation/drawer": "*",
+      "react": "*",
+      "react-native": "*",
+      "react-native-reanimated": "*"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

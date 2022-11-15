@@ -1,0 +1,12 @@
+{
+  "name": "react-native-animated-drawer",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "@react-navigation/drawer": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-reanimated": "*"
+  }
+}
